@@ -1,5 +1,4 @@
-# Runs the command "dexy"
-FROM       reproducible/base
-MAINTAINER Ana Nelson <ana@ananelson.com>
+# Builds the MkDocs documentation site
+FROM reproducible/base
 
-CMD dexy setup && dexy
+CMD uv run mkdocs build

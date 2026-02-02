@@ -1,6 +1,5 @@
-# Runs the ipython notebook
-FROM       reproducible/base
-MAINTAINER Ana Nelson <ana@ananelson.com>
+# Runs the JupyterLab notebook server
+FROM reproducible/base
 
-CMD ipython notebook --ip=* --pylab=inline --no-browser
+CMD uv run jupyter lab --ip=0.0.0.0 --no-browser
 EXPOSE 8888

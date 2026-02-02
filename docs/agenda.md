@@ -1,32 +1,27 @@
 # Agenda
 
-[TOC]
-
-
-## 8:00 am First Session
+## First Session
 
 ### Getting Started
 
-* Get acquainted and verify preparations (5 min) - Matt
+* Get acquainted and verify preparations (5 min)
     * Say *Hi!* to the instructors
     * Introduce yourself to the person sitting next to you, they will be your
   partner
     * Recall successfully completing the [preparation](Preparation.md) tasks
-    * Interact with other participants throughout the tutorial on [the
-      MoPad](https://scipy2014.etherpad.mozilla.org/13)
 
 ### Introduction
 
-[History and Motivation for Reproducible Research](http://reproducible-research.github.io/Reproducible-Research-Part-I/) (10 min) - Luis
+History and Motivation for Reproducible Research (10 min)
 
 * History of scientific societies and publications
-    * [Leeuwenhoek](http://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) was The Man!
-    * [The Invisible College](http://en.wikipedia.org/wiki/Invisible_College)
+    * [Leeuwenhoek](https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) was The Man!
+    * [The Invisible College](https://en.wikipedia.org/wiki/Invisible_College)
     * [Nullius in Verba](https://royalsociety.org/about-us/history/)
 
 ### Data Acquisition
 
-[Image Acquisition](DataAcquisition.md) (25 min) - Matt
+[Image Acquisition](DataAcquisition.md) (25 min)
 
 * Replication of the early microscope experiments by Antonie Leeuwenhoek
     * Cell camera phone microscope
@@ -35,39 +30,37 @@
 
 ### Data Sharing
 
-[Data Sharing](DataSharing.md) - (20 min) - Luis
+[Data Sharing](DataSharing.md) (20 min)
 
 * Image gathering, storage, and sharing (10 min)
-    * Figshare (www.figshare.com)
+    * [Figshare](https://figshare.com)
     * *Hands on:* Upload the images
 * Download data via RESTful API (10 min)
     * REST download via Python standard library
     * Checksum verification
     * *Hands on:* Download the data via HTTP
 
-
-## 9:00 am Second Session
+## Second Session
 
 ### Reproducible Computational Environment
 
-[Computational Environment](ComputationalEnvironment.md) (20 min) - Aashish
+[Computational Environment](ComputationalEnvironment.md) (20 min)
 
 * Reproducible computational environment
     * Docker
-    * Package versioning
-    * Virtual Machines
-    * Cloud services
+    * `uv` and `pyproject.toml` for dependency management
+    * Dev Containers
 * *Hands on:*
-    * Create a Docker image and container
-    * Run our tutorial package verification script
-    * Upload your Docker image to DockerHub
+    * Set up the environment using `uv sync`
+    * Run the environment verification script
+    * Build a Docker image
 
 ### Developing Reproducible Scripts and Modules
 
-[IPython Notebook, Scripts, and SimpleITK](DataProcessing.md) (20 min) - Matt
+[JupyterLab, Scripts, and SimpleITK](DataProcessing.md) (20 min)
 
 * Reproducible code development
-    * IPython Notebook to combine notes, code, and results
+    * JupyterLab to combine notes, code, and results
     * Avoid duplication with re-usable modules
 * *Hands on:*
     * Run analysis on new data
@@ -75,7 +68,7 @@
 
 ### Revision Control
 
-Revision Control with Git and GitHub (20 min) - Steve
+[Revision Control](RevisionControl.md) with Git and GitHub (20 min)
 
 * Software versioning, collaboration, and citation
     * Keeping track of changes
@@ -85,42 +78,39 @@ Revision Control with Git and GitHub (20 min) - Steve
     * Create a branch
     * Make a commit
     * Push the branch
-    * [Create a citable version](https://guides.github.com/activities/citable-code/)
+    * Create a citable version
 
+## Break (15 min)
 
-## 10:00 am Break (15 min)
-
-
-## 10:15 am Third Session
+## Third Session
 
 ### Regression Testing
 
-Regression Testing (30 min) - Jc
+[Testing](Testing.md) (30 min)
 
 * Quality code development with regression tests
     * Testing code hypothesis: the scientific method applied to development
-    * Unit testing
+    * Unit testing with pytest
     * Integration testing
-    * Continuous integration dashboards
+    * Continuous integration with GitHub Actions
 * *Hands on:*
-    * Run the test suite
+    * Run the test suite with `uv run pytest`
     * Add coverage for another method to the unit tests
 
 ### Literate Programming
 
-Literate Programming with Dexy (30 min) - Ana
+[Literate Programming](LiterateProgramming.md) (30 min)
 
-* Article generation
-* RST to HTML, etc
-* GitHub replication and sharing
-* *Hands on:* run dexy to generate a PDF document
+* Document generation with MkDocs
+* Markdown documentation
+* GitHub Pages deployment
+* *Hands on:* build the documentation site with `uv run mkdocs build`
 
-
-## 11:15 am Fourth Session
+## Fourth Session
 
 ### Open Science Publication
 
-Submitting an article to a Reproducible Journal (20 min) - Luis
+Submitting an article to a Reproducible Journal (20 min)
 
 * Open Science Publication
     * Open Access
@@ -129,7 +119,7 @@ Submitting an article to a Reproducible Journal (20 min) - Luis
     * Submit Article to the Insight Journal
     * Point to GitHub fork for source code
 
-### Replicate or Perish !
+### Replicate or Perish!
 
 Attempt to replicate your peers' articles (40 min)
 

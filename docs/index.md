@@ -37,31 +37,7 @@ uv run jupyter lab
 
 # Run the tests
 uv run pytest
-
-# Build the documentation site locally
-uv run mkdocs serve
 ```
-
-## Tutorial Content
-
-* [Preparation](docs/Preparation.md) - Required setup before starting
-* [Agenda](docs/agenda.md) - Session overview
-* [Notebooks](notebooks/) - Hands-on Jupyter notebook exercises
-
-## Technology Stack
-
-| Purpose | Tool |
-|---------|------|
-| Package management | [uv](https://docs.astral.sh/uv/) |
-| Scientific computing | NumPy, SciPy, Matplotlib |
-| Image processing | [SimpleITK](https://simpleitk.org/) |
-| Interactive computing | [JupyterLab](https://jupyterlab.readthedocs.io/) |
-| Data sharing | [Figshare](https://figshare.com) (API v2) |
-| Testing | [pytest](https://docs.pytest.org/) |
-| Documentation site | [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) |
-| Containerization | [Docker](https://www.docker.com/) |
-| CI/CD | [GitHub Actions](https://github.com/features/actions) |
-| Deployment | [GitHub Pages](https://pages.github.com/) |
 
 ## Original Speakers
 
@@ -72,6 +48,9 @@ uv run mkdocs serve
 * Matt McCormick
 * Steve Smith
 
-## License
+## Duration
 
-[Apache License 2.0](LICENSE)
+The tutorial covers four hours, but *preparation is required*.
+
+* [Required preparation](Preparation.md)
+* [Agenda](agenda.md)

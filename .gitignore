@@ -31,40 +31,46 @@ htmlcov/
 .tox/
 .coverage
 .cache
-nosetests.xml
+.pytest_cache/
 coverage.xml
 
 # Translations
 *.mo
 
-# Mr Developer
-.mr.developer.cfg
-.project
-.pydevproject
-
 # Rope
 .ropeproject
 
-# Django stuff:
+# Logs
 *.log
 *.pot
 
-# Sphinx documentation
-docs/_build/
+# uv
+.venv/
 
-# Dexy generated files
+# MkDocs generated site
+site/
+
+# Dexy generated files (legacy)
 dexy/output/
 dexy/.dexy
 dexy/.trash
 .dexy
 output-site/
 
-# Vagrant generated files
-environment/vagrant/.vagrant
-environment/vagrant/vagrant_ansible_inventory_default
-
-# Files generated when running from docker.
-*.ipython
-*.ipynb_checkpoints
+# Jupyter
+.ipynb_checkpoints/
 notebooks/*.png
 notebooks/*.jpg
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated analysis artifacts
+image-analysis.json
+SegmentedEye*.png
+TralitusSaltrator.jpg

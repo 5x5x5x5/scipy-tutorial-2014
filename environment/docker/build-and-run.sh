@@ -1,25 +1,27 @@
 #!/bin/sh
 set -e
 
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+
 ### "build-reproducible"
-docker build -t reproducible/base .
+docker build -t reproducible/base -f environment/docker/Dockerfile "$REPO_ROOT"
 
-### "build-dexy"
-docker build -t reproducible/dexy - < ./Dockerfile-dexy
+### "build-docs"
+docker build -t reproducible/docs -f environment/docker/Dockerfile-dexy "$REPO_ROOT"
 
-### "build-ipython"
-docker build -t reproducible/ipython - < ./Dockerfile-ipython
+### "build-jupyter"
+docker build -t reproducible/jupyter -f environment/docker/Dockerfile-ipython "$REPO_ROOT"
 
-### "run-dexy"
-docker run --rm -v $PWD/../../dexy:/home/repro reproducible/dexy
+### "run-docs"
+docker run --rm -v "$REPO_ROOT":/home/repro reproducible/docs
 
-### "start-ipython"
-docker run -d -P -v $PWD/../../notebooks:/home/reproducible --name ipython reproducible/ipython
+### "start-jupyter"
+docker run -d -p 8888:8888 -v "$REPO_ROOT/notebooks":/home/repro/notebooks --name jupyter reproducible/jupyter
 
-### "ipython-ps"
+### "jupyter-ps"
 docker ps
-docker port ipython 8888
+docker port jupyter 8888
 
-### "ipython-stop"
-docker stop ipython
-docker rm ipython
+### "jupyter-stop"
+docker stop jupyter
+docker rm jupyter
