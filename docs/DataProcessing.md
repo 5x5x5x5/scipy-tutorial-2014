@@ -29,7 +29,7 @@ functions can be stored in Python modules and imported into the notebook.
 
 !!! warning "Avoid Copy-Paste"
     Never duplicate code between notebooks and scripts. Put reusable logic
-    in modules (like `dexy/eyesize.py`) and import them.
+    in modules (like `notebooks/dexy/eyesize.py`) and import them.
 
 There is a helpful IPython magic for this type of rapid development. The
 `autoreload` extension automatically re-imports modules when they change on

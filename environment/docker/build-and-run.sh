@@ -7,10 +7,10 @@ REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 docker build -t reproducible/base -f environment/docker/Dockerfile "$REPO_ROOT"
 
 ### "build-docs"
-docker build -t reproducible/docs -f environment/docker/Dockerfile-dexy "$REPO_ROOT"
+docker build -t reproducible/docs -f environment/docker/dexy/Dockerfile "$REPO_ROOT"
 
 ### "build-jupyter"
-docker build -t reproducible/jupyter -f environment/docker/Dockerfile-ipython "$REPO_ROOT"
+docker build -t reproducible/jupyter -f environment/docker/ipython/Dockerfile "$REPO_ROOT"
 
 ### "run-docs"
 docker run --rm -v "$REPO_ROOT":/home/repro reproducible/docs

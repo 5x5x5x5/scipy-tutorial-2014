@@ -40,7 +40,7 @@ pseudo-terminal and keep stdin open. Enter `exit` to exit the shell.
 Build and run the JupyterLab image:
 
 ```bash
-docker build -t reproducible/jupyter -f environment/docker/Dockerfile-ipython .
+docker build -t reproducible/jupyter -f environment/docker/ipython/Dockerfile .
 docker run -d -p 8888:8888 -v "$PWD/notebooks":/home/repro/notebooks --name jupyter reproducible/jupyter
 ```
 
@@ -58,7 +58,7 @@ docker rm jupyter
 Build and run the docs image:
 
 ```bash
-docker build -t reproducible/docs -f environment/docker/Dockerfile-dexy .
+docker build -t reproducible/docs -f environment/docker/dexy/Dockerfile .
 docker run --rm -v "$PWD":/home/repro reproducible/docs
 ```
 

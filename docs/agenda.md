@@ -12,7 +12,7 @@
 
 ### Introduction
 
-History and Motivation for Reproducible Research (10 min)
+[History and Motivation for Reproducible Research](http://reproducible-research.github.io/Reproducible-Research-Part-I/) (10 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?v=EzX7MN_bzqg#t=147)
 
 * History of scientific societies and publications
     * [Leeuwenhoek](https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek) was The Man!
@@ -30,7 +30,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Data Sharing
 
-[Data Sharing](DataSharing.md) (20 min)
+[Data Sharing](DataSharing.md) (20 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=EzX7MN_bzqg#t=2321)
 
 * Image gathering, storage, and sharing (10 min)
     * [Figshare](https://figshare.com)
@@ -44,7 +44,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Reproducible Computational Environment
 
-[Computational Environment](ComputationalEnvironment.md) (20 min)
+[Computational Environment](ComputationalEnvironment.md) (20 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=EzX7MN_bzqg#t=3920)
 
 * Reproducible computational environment
     * Docker
@@ -57,7 +57,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Developing Reproducible Scripts and Modules
 
-[JupyterLab, Scripts, and SimpleITK](DataProcessing.md) (20 min)
+[JupyterLab, Scripts, and SimpleITK](DataProcessing.md) (20 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=EzX7MN_bzqg#t=5288)
 
 * Reproducible code development
     * JupyterLab to combine notes, code, and results
@@ -68,7 +68,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Revision Control
 
-[Revision Control](RevisionControl.md) with Git and GitHub (20 min)
+[Revision Control](RevisionControl.md) with Git and GitHub (20 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=EzX7MN_bzqg#t=6445)
 
 * Software versioning, collaboration, and citation
     * Keeping track of changes
@@ -78,7 +78,7 @@ History and Motivation for Reproducible Research (10 min)
     * Create a branch
     * Make a commit
     * Push the branch
-    * Create a citable version
+    * [Create a citable version](https://guides.github.com/activities/citable-code/)
 
 ## Break (15 min)
 
@@ -86,7 +86,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Regression Testing
 
-[Testing](Testing.md) (30 min)
+[Testing](Testing.md) (30 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=HCyHn_by3N0#t=56)
 
 * Quality code development with regression tests
     * Testing code hypothesis: the scientific method applied to development
@@ -99,7 +99,7 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Literate Programming
 
-[Literate Programming](LiterateProgramming.md) (30 min)
+[Literate Programming](LiterateProgramming.md) (30 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=HCyHn_by3N0#t=1634)
 
 * Document generation with MkDocs
 * Markdown documentation
@@ -110,13 +110,13 @@ History and Motivation for Reproducible Research (10 min)
 
 ### Open Science Publication
 
-Submitting an article to a Reproducible Journal (20 min)
+Submitting an article to a Reproducible Journal (20 min) [:fontawesome-brands-youtube:{ .youtube } Video](https://www.youtube.com/watch?feature=player_detailpage&v=HCyHn_by3N0#t=5322)
 
 * Open Science Publication
     * Open Access
     * Publishes article, data, and code
 * *Hands on:*
-    * Submit Article to the Insight Journal
+    * Submit Article to the [Insight Journal](http://insight-journal.org/browse/journal/74)
     * Point to GitHub fork for source code
 
 ### Replicate or Perish!
