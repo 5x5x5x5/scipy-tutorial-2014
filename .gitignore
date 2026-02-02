@@ -50,11 +50,7 @@ coverage.xml
 # MkDocs generated site
 site/
 
-# Dexy generated files (legacy)
-dexy/output/
-dexy/.dexy
-dexy/.trash
-.dexy
+# Legacy build artifacts
 output-site/
 
 # Jupyter

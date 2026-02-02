@@ -24,7 +24,7 @@ docs = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["notebooks/dexy/test"]
+testpaths = ["notebooks/analysis/test"]
 
 [tool.uv]
 default-groups = ["dev", "docs"]

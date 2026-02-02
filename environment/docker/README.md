@@ -58,7 +58,7 @@ docker rm jupyter
 Build and run the docs image:
 
 ```bash
-docker build -t reproducible/docs -f environment/docker/dexy/Dockerfile .
+docker build -t reproducible/docs -f environment/docker/docs/Dockerfile .
 docker run --rm -v "$PWD":/home/repro reproducible/docs
 ```
 

@@ -40,7 +40,7 @@ uv run pytest
 
 ### Example Test
 
-The `notebooks/dexy/test/eyesize_test.py` file contains an integration test that:
+The `notebooks/analysis/test/eyesize_test.py` file contains an integration test that:
 
 1. Downloads a test image from Figshare
 2. Runs the eye segmentation algorithm
@@ -69,7 +69,7 @@ def test_eye_radius_estimation():
 
 ### Progressive Test Improvement
 
-The `notebooks/dexy/test/` directory contains a series of test files that
+The `notebooks/analysis/test/` directory contains a series of test files that
 demonstrate how to progressively improve your tests:
 
 1. **eyesize_0_basic_test.py** - Basic test: download, process, assert
@@ -86,8 +86,8 @@ changes don't break existing functionality.
 ## Hands On
 
 1. Run the test suite: `uv run pytest`
-2. Look at `notebooks/dexy/test/eyesize_test.py` to understand the basic test
+2. Look at `notebooks/analysis/test/eyesize_test.py` to understand the basic test
 3. Work through the [04-RegressionTesting notebook](../notebooks/04-RegressionTesting.ipynb)
    to see how tests evolve from basic to robust
-4. Add a test for the `overlay_segmentation` function in `notebooks/dexy/eyesize.py`
+4. Add a test for the `overlay_segmentation` function in `notebooks/analysis/eyesize.py`
 5. Run the tests again and verify your new test passes
