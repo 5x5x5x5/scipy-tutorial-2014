@@ -8,6 +8,8 @@ We will honor the method devised by Antonie Leeuwenhoek in the 1600s. It is
 said that Leeuwenhoek performed some of his earlier microscopy observations by
 using a drop of water as a powerful spherical lens.
 
+This is described in more detail [in this Kitware blog post](https://www.kitware.com/scientific-imaging-with-a-water-drop-lens/).
+
 A drop of water typically will have a radius of about one or two millimeters,
 resulting in a large magnification power.
 
@@ -17,7 +19,9 @@ still keeping it well rounded. In this exercise we will place the water over a
 glass surface, therefore creating a half-spherical lens.
 
 
-## Acquisition
+## Hands-On
+
+[![Acquisition Overview](https://img.youtube.com/vi/kvKDqg-jbX4/0.jpg)](https://www.youtube.com/watch?v=kvKDqg-jbX4)
 
 ### Device
 
@@ -52,6 +56,8 @@ Use a mobile device:
 
 #### The Water Drop
 
+[![Water Drop](https://img.youtube.com/vi/mURPEFv9uyg/0.jpg)](https://www.youtube.com/watch?v=mURPEFv9uyg)
+
 1. Place the device on a flat surface.
 2. Immerse your finger in the glass of water to draw a drop of water.
 3. Place the drop of water on top of the camera.
@@ -59,6 +65,8 @@ Use a mobile device:
     * Make the drop as small as possible, yet cover the sensor.
 
 #### The Object
+
+[![Finger Focus](https://img.youtube.com/vi/kbRBKXDPqTM/0.jpg)](https://www.youtube.com/watch?v=kbRBKXDPqTM)
 
 1. Hold a small object or the tip of your finger in front of the water drop, without touching the drop.
 2. Monitor the image of the object in the screen of the mobile device.
@@ -72,6 +80,8 @@ Use a mobile device:
 
 #### The Microscopy Samples
 
+[![Cover Slide Position](https://img.youtube.com/vi/1dX6jiezYuY/0.jpg)](https://www.youtube.com/watch?v=1dX6jiezYuY)
+
 1. Take the microscopy samples distributed by instructors.
     * It typically will contain some microscopic organisms floating in a solution.
 2. Put a drop of the sample in a glass cover slide.
@@ -84,5 +94,10 @@ Use a mobile device:
 
 Examples of data acquisition can be seen at:
 
+[![Example microscopy image](https://files.figshare.com/1526481/IMG_20140331_131737.jpeg){ width="400" }](https://doi.org/10.6084/m9.figshare.1051751)
+
+[![Tardigrade image](https://files.figshare.com/1535892/IMG_20140613_141431.jpg){ width="400" }](https://doi.org/10.6084/m9.figshare.1058904)
+
 * [Figshare example dataset](https://doi.org/10.6084/m9.figshare.1051751)
 * [Figshare tardigrade image](https://doi.org/10.6084/m9.figshare.1058904)
+* [Figshare sand hopper video](https://doi.org/10.6084/m9.figshare.1058902)

@@ -95,6 +95,8 @@ data programmatically with Python's `urllib`.
 
 ## Hands On
 
+Run through the [02-DataSharing.ipynb](https://nbviewer.org/github/reproducible-research/scipy-tutorial-2014/blob/master/notebooks/02-DataSharing.ipynb) notebook in the repository.
+
 * Repeat this process with your image in Figshare
-* Use the `02-DataSharing.ipynb` notebook to download it via the API
+* Use the notebook to download it via the API
 * Verify that the file appears in your file system

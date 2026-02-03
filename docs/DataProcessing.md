@@ -14,8 +14,13 @@ sessions on revision control, regression testing, and literate programming.
 
 ## JupyterLab
 
+[![Jupyter](https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg){ width="200" }](https://jupyter.org/)
+
 [JupyterLab](https://jupyterlab.readthedocs.io/) is one of the best existing
 resources for reproducible research practices.
+
+* Learn it!
+* Love it!
 
 Launch it with:
 
@@ -45,7 +50,7 @@ the updated code in the notebook without restarting the kernel.
 
 ## Hands On
 
-Run through the `03-DataProcessing.ipynb` notebook in the repository. At the
+Run through the [03-DataProcessing.ipynb](https://nbviewer.org/github/reproducible-research/scipy-tutorial-2014/blob/master/notebooks/03-DataProcessing.ipynb) notebook in the repository. At the
 end of the notebook, there is a simple exercise on code re-use. Explore
 analysis on your images or images of nearby groups. Save the updated notebook
 to disk.

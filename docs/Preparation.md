@@ -25,6 +25,8 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 
 ## Clone a Fork of the Tutorial Repository
 
+[![GitHub](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){ width="100" }](https://github.com)
+
 1. [Sign up](https://github.com/join) for a free [GitHub](https://github.com) account.
 2. [Create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) of [the tutorial repository](https://github.com/reproducible-research/scipy-tutorial-2014).
 3. Clone the fork locally:
@@ -60,13 +62,15 @@ You should see `Success. All dependencies are available.`
 
 ## Sign Up for a Figshare Account
 
+[![Figshare logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Figshare_logo.svg/200px-Figshare_logo.svg.png){ width="150" }](https://figshare.com)
+
 [Sign up](https://figshare.com/account/register) for a free
 [Figshare](https://figshare.com) account. We will use this to share and
 download data during the tutorial.
 
 ## Work Through the First Notebook
 
-Launch JupyterLab and work through the `01-SimpleITK-Filtering` notebook
+Launch JupyterLab and work through the [01-SimpleITK-Filtering](https://nbviewer.org/github/reproducible-research/scipy-tutorial-2014/blob/master/notebooks/01-SimpleITK-Filtering.ipynb) notebook
 to verify everything is working:
 
 ```bash
@@ -74,6 +78,8 @@ uv run jupyter lab
 ```
 
 ## Alternative: Docker Environment
+
+[![Docker logo](https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png){ width="100" }](https://www.docker.com/)
 
 If you prefer to use Docker instead of a local installation:
 
